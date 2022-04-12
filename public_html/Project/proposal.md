@@ -48,22 +48,7 @@
         -  [https://wik3-prod.herokuapp.com/Project/profile.php](https://wik3-prod.herokuapp.com/Project/profile.php)
 
 - Milestone 2
-  - [ ] \(mm/dd/yyyy of completion) Feature Title (from the proposal bullet point, if it's a sub-point indent it properly)
-    -  Link to related .md file: [Link Name](link url)
-  - [ ] \(mm/dd/yyyy of completion) Feature Title (from the proposal bullet point, if it's a sub-point indent it properly)
-    -  Link to related .md file: [Link Name](link url)
-  - [ ] \(mm/dd/yyyy of completion) Create the Transactions table (from the proposal bullet point, if it's a sub-point indent it properly)
-    -  Link to related .md file: [Link Name](link url)
-  - [ ] \(mm/dd/yyyy of completion) Dashboard page (from the proposal bullet point, if it's a sub-point indent it properly)
-    -  Link to related .md file: [Link Name](link url)
-  - [ ] \(mm/dd/yyyy of completion) User will be able to create a checking account (from the proposal bullet point, if it's a sub-point indent it properly)
-    -  Link to related .md file: [Link Name](link url)
-  - [ ] \(mm/dd/yyyy of completion) User will be able to list their accounts (from the proposal bullet point, if it's a sub-point indent it properly)
-    -  Link to related .md file: [Link Name](link url)
-  - [ ] \(mm/dd/yyyy of completion) User will be able to click an account for more information (from the proposal bullet point, if it's a sub-point indent it properly)
-    -  Link to related .md file: [Link Name](link url)
-  - [ ] \(mm/dd/yyyy of completion) User will be able to deposit/withdraw from their account(s) (from the proposal bullet point, if it's a sub-point indent it properly)
-    -  Link to related .md file: [Link Name](link url)
+  - (duplicate template here for Milestone 1 features)
 - Milestone 3
   - (duplicate template here for Milestone 1 features)
 - Milestone 4
