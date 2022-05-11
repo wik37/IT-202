@@ -28,3 +28,5 @@ require(__DIR__ . "/get_columns.php");
 require(__DIR__ . "/save_data.php");
 require(__DIR__ . "/input_map.php");
 require(__DIR__ . "/update_data.php");
+require(__DIR__ . "/get_account_balance.php");
+require(__DIR__ . "/add_to_cart.php");
