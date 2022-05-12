@@ -99,7 +99,7 @@ if (isset($_POST['review'])) {
     flash("Thanks for your feedback!", "success");
 }
 $score = [];
-$stmt = $db->prepare("SELECT Ratings.id, Ratings.user_id, rating, comment, Ratings.created, username FROM Ratings LEFT JOIN Users ON Ratings.user_id = Users.id WHERE product_id = $prod");
+//$stmt = $db->prepare("SELECT Ratings.id, Ratings.user_id, rating, comment, Ratings.created, username FROM Ratings LEFT JOIN Users ON Ratings.user_id = Users.id WHERE product_id = $prod");
 try {
     $stmt->execute();
     $r = $stmt->fetchAll(PDO::FETCH_ASSOC);
