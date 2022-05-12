@@ -65,7 +65,7 @@ foreach ($params as $key => $value) {
     $stmt->bindValue($key, $value, $type);
 }
 $params = null; //set it to null to avoid issues
-//$stmt = $db->prepare("SELECT id, name, description, unit_price, stock, image FROM Products WHERE stock > 0 AND visibility = 1 LIMIT 10");
+$stmt = $db->prepare("SELECT id, name, description, unit_price, stock, image FROM Products WHERE stock > 0 AND visibility = 1 LIMIT 10");
 try {
     $stmt->execute($params);
     $r = $stmt->fetchAll(PDO::FETCH_ASSOC);

@@ -23,7 +23,7 @@ if (isset($_POST['update'])) {
                 $results = $r;
             }
         } catch (PDOException $e) {
-            //flash("<pre>" . var_export($e, true) . "</pre>");
+            flash("<pre>" . var_export($e, true) . "</pre>");
             flash("We had some problems processing your request, please try again.", "danger");
         }
     }
@@ -36,7 +36,7 @@ if (isset($_POST['update'])) {
                 $results = $r;
             }
         } catch (PDOException $e) {
-            //flash("<pre>" . var_export($e, true) . "</pre>");
+            flash("<pre>" . var_export($e, true) . "</pre>");
             flash("We had some problems processing your request, please try again.", "danger");
         }
     }
@@ -51,7 +51,7 @@ if (isset($_POST['remove'])) {
             $results = $r;
         }
     } catch (PDOException $e) {
-        //flash("<pre>" . var_export($e, true) . "</pre>");
+        flash("<pre>" . var_export($e, true) . "</pre>");
         flash("We had some problems processing your request, please try again.", "danger");
     }
 }
@@ -64,7 +64,7 @@ if (isset($_POST['clear'])) {
             $results = $r;
         }
     } catch (PDOException $e) {
-        //flash("<pre>" . var_export($e, true) . "</pre>");
+        flash("<pre>" . var_export($e, true) . "</pre>");
         flash("We had some problems processing your request, please try again.", "danger");
     }
 }
@@ -77,7 +77,7 @@ try {
         $results = $r;
     }
 } catch (PDOException $e) {
-    //flash("<pre>" . var_export($e, true) . "</pre>");
+    flash("<pre>" . var_export($e, true) . "</pre>");
     flash("We had some problems processing your request, please try again.", "danger");
 }
 $total_cost = 0;
@@ -91,7 +91,7 @@ foreach ($results as $record) {
         try {
             $stmt->execute([":price" => $record['unit_price'], ":pid" => $record["id"]]);
         } catch (PDOException $e) {
-            //flash("<pre>" . var_export($e, true) . "</pre>");
+            flash("<pre>" . var_export($e, true) . "</pre>");
             flash("We had some problems processing your request, please try again.", "danger");
         }
     }
@@ -125,7 +125,7 @@ if (isset($_POST['order'])) {
         try {
             $stmt->execute([":uid" => $user_id, ":order_id" => $id]);
         } catch (PDOException $e) {
-            //flash("<pre>" . var_export($e, true) . "</pre>");
+            flash("<pre>" . var_export($e, true) . "</pre>");
             flash("We had some problems processing your request, please try again.", "danger");
         }
 
@@ -135,7 +135,7 @@ if (isset($_POST['order'])) {
             try {
                 $stmt->execute([":stock" => $new_stock, ":pid" => $record['id']]);
             } catch (PDOException $e) {
-                //flash("<pre>" . var_export($e, true) . "</pre>");
+                flash("<pre>" . var_export($e, true) . "</pre>");
                 flash("We had some problems processing your request, please try again.", "danger");
             }
         }
@@ -144,7 +144,7 @@ if (isset($_POST['order'])) {
         try {
             $stmt->execute([":uid" => $user_id]);
         } catch (PDOException $e) {
-            //flash("<pre>" . var_export($e, true) . "</pre>");
+            flash("<pre>" . var_export($e, true) . "</pre>");
             flash("We had some problems processing your request, please try again.", "danger");
         }
 

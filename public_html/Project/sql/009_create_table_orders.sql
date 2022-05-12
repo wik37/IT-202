@@ -6,4 +6,4 @@ CREATE TABLE IF NOT EXISTS Orders(
     payment_method VARCHAR(20),
     created TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (user_id) REFERENCES Users(id)
-) 
+)

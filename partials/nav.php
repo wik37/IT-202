@@ -45,7 +45,6 @@ require_once(__DIR__ . "/../lib/functions.php");
             <li><a href="<?php echo get_url('admin/add_item.php'); ?>">Add Item</a></li>
             <li><a href="<?php echo get_url('admin/list_items.php'); ?>">List Items</a></li>
             <li><a href="<?php echo get_url('admin/edit_item.php'); ?>">Edit Items</a></li>
-            <li><a href="<?php echo get_url('product_details.php'); ?>">Product Details</a></li>
             <li><a href="<?php echo get_url('admin/all_purchases.php'); ?>">Order History</a></li>
         <?php endif; ?>
         <?php if (is_logged_in()) : ?>
