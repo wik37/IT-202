@@ -32,6 +32,7 @@ require(__DIR__ . "/get_account_balance.php");
 require(__DIR__ . "/add_to_cart.php");
 require(__DIR__ . "/get_or_create_account.php");
 
+
 function paginate($query, $params = [], $per_page = 10)
 {
     global $page; //will be available after function is called
