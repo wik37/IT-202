@@ -65,7 +65,7 @@ if (isset($_POST['clear'])) {
     }
 }
 
-$stmt = $db->prepare("SELECT Products.id, Products.name, Products.description, Products.stock, Products.cost, Cart.quantity FROM Cart LEFT JOIN Products ON Cart.item_id = Products.id WHERE user_id = :name;");
+$stmt = $db->prepare("SELECT Items.id, Items.name, Items.description, Items.stock, Items.cost, Cart.quantity FROM Cart LEFT JOIN Items ON Cart.item_id = Items.id WHERE user_id = :name;");
 try {
     $stmt->execute([":name" => $user_id]);
     $r = $stmt->fetchAll(PDO::FETCH_ASSOC);
