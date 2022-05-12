@@ -136,7 +136,7 @@ try {
         let data = new FormData();
         data.append("item_id", item);
         data.append("quantity", quantity);
-        fetch("api/cart_item.php", {
+        fetch("api/cart_product.php", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/x-www-form-urlencoded",
