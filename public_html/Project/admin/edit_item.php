@@ -8,20 +8,20 @@ if (!has_role("Admin")) {
 }
 //update the item
 if (isset($_POST["submit"])) {
-    if (update_data("Items", $_GET["id"], $_POST)) {
+    if (update_data("Products", $_GET["id"], $_POST)) {
         flash("Updated item", "success");
     }
 }
 
 //get the table definition
 $result = [];
-$columns = get_columns("Items");
+$columns = get_columns("Products");
 //echo "<pre>" . var_export($columns, true) . "</pre>";
 $ignore = ["id", "modified", "created"];
 $db = getDB();
 //get the item
 $id = se($_GET, "id", -1, false);
-$stmt = $db->prepare("SELECT * FROM Items where id =:id");
+$stmt = $db->prepare("SELECT * FROM Products where id =:id");
 try {
     $stmt->execute([":id" => $id]);
     $r = $stmt->fetch(PDO::FETCH_ASSOC);
@@ -61,4 +61,4 @@ function mapColumn($col)
 <?php
 //note we need to go up 1 more directory
 require_once(__DIR__ . "/../../../partials/footer.php");
-?> 
+?>
