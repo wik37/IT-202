@@ -114,6 +114,21 @@ try {
                 </div>
                 <div class="col">
                     <div class="input-group">
+                        <div class="input-group-text">Stock</div>
+                        <!-- make sure these match the in_array filter above-->
+                        <select class="form-control" name="col" value="<?php se($col); ?>">
+                            <option value="unit_price">All</option>
+                            <option value="stock">In stock</option>
+                            <option value="name">Out of stock</option>
+                        </select>
+                        <script>
+                            //quick fix to ensure proper value is selected since
+                            //value setting only works after the options are defined and php has the value set prior
+                            document.forms[0].col.value = "<?php se($col); ?>";
+                        </script>
+                    </div>
+                <div class="col">
+                    <div class="input-group">
                         <div class="input-group-text">Sort</div>
                         <!-- make sure these match the in_array filter above-->
                         <select class="form-control" name="col" value="<?php se($col); ?>">
@@ -121,7 +136,7 @@ try {
                             <option value="stock">Stock</option>
                             <option value="name">Name</option>
                             <option value="created">Created</option>
-                            <option value="rating">Rating</option>
+                            <option value="rating">Average Rating</option>
                         </select>
                         <script>
                             //quick fix to ensure proper value is selected since
