@@ -265,6 +265,9 @@ try {
                         </li>
                     </ul>
                 </nav>
+                <td>
+                    <a href="edit_item.php?id=<?php se($record, "id"); ?>">Edit</a>
+                </td>
             <?php endif; ?>
             <div class="accordion">
                 <?php $c = 1; ?>
