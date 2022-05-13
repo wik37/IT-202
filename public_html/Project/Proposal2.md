@@ -95,7 +95,27 @@
         -  [Milestone 3](https://github.com/wik37/IT-202/blob/Milestone3/public_html/Project/milestone2.md)
         -  [https://wik3-prod.herokuapp.com/Project/admin/all_order_details.php?id=3](https://wik3-prod.herokuapp.com/Project/admin/all_order_details.php?id=3)
 - Milestone 4
-  - (duplicate template here for Milestone 1 features)
+     - [x] \(05/12/2022)  User can set their profile to be public or private (will need another column in Users table)
+        -  [Milestone 4](https://github.com/wik37/IT-202/blob/Milestonee4/public_html/Project/milestone4.md)
+        -  [https://wik3-prod.herokuapp.com/Project/profile.php](https://wik3-prod.herokuapp.com/Project/profile.php)
+    - [x] \(05/12/2022) User will be able to rate a product they purchased
+        -  [Milestone 4](https://github.com/wik37/IT-202/blob/Milestonee4/public_html/Project/milestone4.md)
+        -  [https://wik3-prod.herokuapp.com/Project/shop.php](https://wik3-prod.herokuapp.com/Project/shop.php)
+    - [x] \(05/12/2022) User’s Purchase History Changes
+        -  [Milestone 4](https://github.com/wik37/IT-202/blob/Milestonee4/public_html/Project/milestone4.md)
+        -  [https://wik3-prod.herokuapp.com/Project/purchase_history.php](https://wik3-prod.herokuapp.com/Project/purchase_history.php)
+    - [x] \(05/12/2022) Store Owner Purchase History Changes
+        -  [Milestone 4](https://github.com/wik37/IT-202/blob/Milestonee4/public_html/Project/milestone4.md)
+        -  [https://wik3-prod.herokuapp.com/Project/purchase_history.php](https://wik3-prod.herokuapp.com/Project/purchase_history.php)
+    - [x] \(05/12/2022) Add pagination to Shop Page (and any other product lists not yet mentioned)
+        -  [Milestone 4](https://github.com/wik37/IT-202/blob/Milestonee4/public_html/Project/milestone4.md)
+        -  [https://wik3-prod.herokuapp.com/Project/shop.php](https://wik3-prod.herokuapp.com/Project/shop.php)
+    - [x] \(05/12/2022) Store Owner will be able to see all products out of stock
+        -  [Milestone 4](https://github.com/wik37/IT-202/blob/Milestonee4/public_html/Project/milestone4.md)
+        -  [https://wik3-prod.herokuapp.com/Project/shop.php](https://wik3-prod.herokuapp.com/Project/shop.php)
+    - [x] \(05/12/2022) User can sort products by average rating on the Shop Page
+        -  [Milestone 4](https://github.com/wik37/IT-202/blob/Milestonee4/public_html/Project/milestone4.md)
+        -  [https://wik3-prod.herokuapp.com/Project/shop.php](https://wik3-prod.herokuapp.com/Project/shop.php)
   - 
 ### Intructions
 #### Don't delete this
