@@ -48,7 +48,39 @@
         -  [https://wik3-prod.herokuapp.com/Project/profile.php](https://wik3-prod.herokuapp.com/Project/profile.php)
 
 - Milestone 2
-  - (duplicate template here for Milestone 1 features)
+    - [x] \(05/12/2022) User with an admin role or shop owner role will be able to add products to inventory
+        -  [Milestone 2](https://github.com/wik37/IT-202/blob/Milestone2/public_html/Project/milestone2.md)
+        -  [https://wik3-prod.herokuapp.com/Project/add_item.php](https://wik3-prod.herokuapp.com/Project/add_item.php)
+    - [ ] \(05/12/2022)  Any user will be able to see products with visibility = true on the Shop page
+        -  [Milestone 2](https://github.com/wik37/IT-202/blob/Milestone2/public_html/Project/milestone2.md)
+        -  [https://wik3-prod.herokuapp.com/Project/shop.php](https://wik3-prod.herokuapp.com/Project/shop.php)
+    - [ ] \(05/12/2022) Admin/Shop owner will be able to see products with any visibility
+        -  [Milestone 2](https://github.com/wik37/IT-202/blob/Milestone2/public_html/Project/milestone2.md)
+        -  [https://wik3-prod.herokuapp.com/Project/shop.php](https://wik3-prod.herokuapp.com/Project/shop.php)
+    - [x] \(05/12/2022) Admin/Shop owner will be able to edit any product
+        -  [Milestone 2](https://github.com/wik37/IT-202/blob/Milestone2/public_html/Project/milestone2.md)
+        -  [https://wik3-prod.herokuapp.com/Project/list_items.php](https://wik3-prod.herokuapp.com/Project/list_items.php)
+    - [x] \(05/12/2022) User will be able to click an item from a list and view a full page with more info about the item (Product Details Page)
+        -  [Milestone 2](https://github.com/wik37/IT-202/blob/Milestone2/public_html/Project/milestone2.md)
+        -  [https://wik3-prod.herokuapp.com/Project/admin/list_items.php](https://wik3-prod.herokuapp.com/Project/admin/list_items.php)
+    - [x] \(05/12/2022)  User must be logged in for any Cart related activity below
+        -  [Milestone 2](https://github.com/wik37/IT-202/blob/Milestone2/public_html/Project/milestone2.md)
+        -  [https://wik3-prod.herokuapp.com/Project/cart.php](https://wik3-prod.herokuapp.com/Project/cart.php)
+    - [x] \(05/12/2022) User will be able to add items to Cart
+        -  [Milestone 2](https://github.com/wik37/IT-202/blob/Milestone2/public_html/Project/milestone2.md)
+        -  [https://wik3-prod.herokuapp.com/Project/shop.php](https://wik3-prod.herokuapp.com/Project/shop.php)
+    - [x] \(05/12/2022) User will be able to see their cart
+        -  [Milestone 2](https://github.com/wik37/IT-202/blob/Milestone2/public_html/Project/milestone2.md)
+        -  [https://wik3-prod.herokuapp.com/Project/cart.php](https://wik3-prod.herokuapp.com/Project/cart.php)
+    - [x] \(05/12/2022) User will be able to change quantity of items in their cart
+        -  [Milestone 2](https://github.com/wik37/IT-202/blob/Milestone2/public_html/Project/milestone2.md)
+        -  [https://wik3-prod.herokuapp.com/Project/cart.php](https://wik3-prod.herokuapp.com/Project/cart.php)
+    - [x] \(05/12/2022) User will be able to remove a single item from their cart via button click
+        -  [Milestone 2](https://github.com/wik37/IT-202/blob/Milestone2/public_html/Project/milestone2.md)
+        -  [https://wik3-prod.herokuapp.com/Project/cart.php](https://wik3-prod.herokuapp.com/Project/cart.php)
+    - [x] \(05/12/2022) User will be able to clear their entire cart via a button click
+        -  [Milestone 2](https://github.com/wik37/IT-202/blob/Milestone2/public_html/Project/milestone2.md)
+        -  [https://wik3-prod.herokuapp.com/Project/cart.php](https://wik3-prod.herokuapp.com/Project/cart.php)
 - Milestone 3
   - (duplicate template here for Milestone 1 features)
 - Milestone 4
